@@ -1,0 +1,21 @@
+:root{
+    --FG-1: #00887A;
+    --FG-2: WHITE;
+    --BRIGHT-COLOR: #FFCCBC;
+    --COLOR1: #77A6F7;
+    --COLOR2: #75CE9F;
+    --COLOR3: #d3E3FC;
+    --DEF-BOX-SHADOW: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+body{
+    background: linear-gradient(var(--COLOR3), var(--COLOR1)) fixed;
+    color:var(--FG-1);
+    font-family: "Bahnschrift";
+    overflow-x: hidden;
+}
+form input{
+    transition: background-color .25s;
+}
+form input:focus{
+    background-color: lightgray;
+}

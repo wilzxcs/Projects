@@ -1,0 +1,103 @@
+#side-container{
+    width: 250px;
+    float: right;
+}
+    #player-info{
+        color: var(--FG-1);
+        background-color: var(--BRIGHT-COLOR);
+        padding: 1em;
+        width: 230px;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        clear: both;
+        position:relative;
+        left: -10px;
+    }
+        #player-info a{
+            padding: 5px;
+            color: black;
+            text-decoration: none;
+        }
+        #player-info li{
+            color: black;
+            border-top-right-radius: 20px;
+            border-bottom-right-radius: 20px;
+            transition: background-color 0.25s;
+        }
+    
+    #house-info{
+        width: 280px;
+        height: 250px;  
+        margin-left: -25px;
+        border-radius: 10px;
+        
+        overflow-x: hidden;
+    }
+
+        #house_logo{
+            margin-left: 15px;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+        }
+
+#posts{
+    float: left;
+    width: 78%;
+    margin-bottom: 50px;
+}
+    #posts div{
+        padding: 1em;
+        margin-bottom: 50px;
+    }
+        #announcements{
+            border: 15px solid var(--COLOR1);
+            border-radius: 10px;
+            width: 400px;
+            height: 200px;
+            float: left;
+            margin-left: 1%;
+            margin-right: 10%;
+        }
+            #announcements em{
+                font-size: 20px;
+                
+            }
+            #announcements p{
+                font-size: 12px;
+            }
+        #wall{
+            float:left;
+            border: 15px solid var(--COLOR1);
+            border-radius: 10px;
+            width: 400px;
+            height: 200px;
+        }
+
+#enter-post form textarea{
+    width: 200px;
+    height: 30px;
+
+}
+#enter-post{
+    border: 10px solid var(--COLOR1);
+    border-radius: 10px;
+    margin-left: 55%;
+}
+div h1{
+    text-align: center;
+    text-decoration: underline;
+}
+
+#announcements, #wall{
+    text-align: center;
+}
+#wall #name{
+    text-decoration: underline;
+}
+.scrollable{
+    overflow-y: scroll;
+    height: 50%;
+}
+iframe{
+    display: none;
+}

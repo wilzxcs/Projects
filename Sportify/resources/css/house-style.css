@@ -1,0 +1,65 @@
+body{
+    zoom: 90%;
+}
+a{
+    margin-right: 2em;
+}
+a img{
+    border-radius: 100%;
+    transform: scale(1.0);
+    transition:  transform 0.25s;
+}
+a img:hover{
+    transform: scale(1.25);
+}
+#houses{
+    width: fit-content;
+    margin: 10em auto 0;
+}
+#player_list{
+    padding: 1em;
+    text-align: center;
+    width: fit-content;
+    float:left;
+    
+    margin-right: 50px;
+    margin-left: 10px;
+    background-color: rgb(109, 180, 235);
+    color:var(--FG-1);
+    height: 500px;
+    font-family: "Roboto";
+    font-weight: light;
+}
+#h_list{
+    font-size: 18pt;
+}
+#house_logo_single{
+    float:left;
+    padding: 1em;
+    width:fit-content;
+}
+#top{
+    width: 50%;
+    float: left;
+    margin-right: 80px;
+    clear: right;
+}
+table{
+    float: left;
+    margin-top: -150px;
+    margin-left: 50px;
+    border-collapse: collapse;
+    text-align: center;
+    width: 50%;
+}
+tr{
+    background-color: lightblue;
+}
+tr:nth-child(even){
+ 
+    background-color: lightskyblue;
+}
+td{
+
+    padding: 1em;
+}

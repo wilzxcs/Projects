@@ -1,0 +1,22 @@
+#main{
+    border: 1px solid black;
+    padding: 1em;
+    text-align: center;
+}
+#basic{
+    padding: 1em;
+    box-shadow: var(--DEF-BOX-SHADOW);
+}
+#houses{
+    margin-top: 2em;
+    
+    height: 300px;
+}
+.house{
+    border: 1px solid black;
+    margin: 1em;
+    width: fit-content;
+    margin: 0 auto 0;
+    padding: 1em;
+    height: 250px;
+}

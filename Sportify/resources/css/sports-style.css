@@ -1,0 +1,64 @@
+table, tr{
+    border: 1px solid lightslategrey;
+    border-collapse: collapse;
+}
+.spacer{
+    border: none;
+    width: 10%;
+}
+#sport-info{
+    font-size: 20pt;
+    margin: auto;
+    margin-bottom: 5%;
+}
+#sport-info td{
+    padding: 10px;
+}
+#schedules table{
+    font-size: 19pt;
+    margin: auto;
+    width: 900px;
+}
+#schedules table, #schedules tr, #schedules td{
+
+    text-align: center;
+}
+#schedules{
+    float:left;
+}
+#all-sports{
+    padding: 1em;
+    border-radius: 10px;
+    margin-right: 50px;
+    border: 5px solid lightslategrey;
+    float: left;
+    width: fit-content;
+    
+}
+
+#all-sports a:visited{
+    color: var(--FG-1);
+}
+#all-sports a{
+    color: var(--FG-1);
+    text-decoration: none;
+}
+#all-sports a:hover{
+    text-decoration: underline;
+}
+
+
+tr{
+    background-color: lightskyblue;
+}
+tr:nth-child(even){
+    background-color: lightsteelblue;
+}
+
+#cell_time{
+    background-color: chartreuse;
+}
+#cell_over{
+    background-color: rgb(204,59,81);
+    color: white;
+}

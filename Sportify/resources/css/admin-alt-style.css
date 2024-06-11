@@ -1,0 +1,16 @@
+body{
+    font-size: 8px;
+    margin-left: 0%;
+}
+table{
+    margin: 0 auto;
+}
+.block{
+    margin: 0 auto;
+    text-align: center;
+    margin: 1em;
+    border-radius: 10px;
+    border: 10px solid var(--FG-1);
+    float: left;
+    width: fit-content;
+}

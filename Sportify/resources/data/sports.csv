@@ -1,0 +1,12 @@
+id,name,level,type
+10,Basketball,Major,Boys
+11,Basketball,Major,Girls
+12,Volleyball,Major,Boys
+13,Volleyball,Major,Girls
+14,Badminon,Minor,Boys
+15,Badminton,Minor,Girls
+16,Sepak Takraw,Minor,None
+17,Frisbee,Minor,None
+18,Chess,Junior,None
+19,Checkers,Junior,None
+20,Futsal,Minor,None

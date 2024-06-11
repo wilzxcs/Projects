@@ -1,0 +1,47 @@
+
+form{
+    background-color: var(--COLOR3);
+    padding: 5em;
+    float: left;
+    margin-left: 5%;
+    margin-top: 1%;
+    border: 1px solid white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+div b{
+    text-decoration: dashed;
+}
+form:first-child{
+    margin-right: 5%;
+}
+#player_ID, #pass_ID{
+    margin-left: 10%;
+    margin-bottom: 10%;
+}
+#title{
+    margin-left: 3%;
+    margin-top: 0;
+    clear:both;
+    background-image: url("resources/images/upvtc_logo.png");
+}
+form a{
+    text-decoration: none;
+    text-align: center;
+    margin: 0 auto;
+    cursor: pointer;
+}
+form a:hover{
+    text-decoration: underline;
+}
+#submit{
+    padding: 1em;
+    border-radius: 0.5em;
+    color: var(--FG-2);
+    background-color: var(--FG-1);
+    border: none;
+    width: 255%;
+}
+#submit:active{
+    background-color: #f5a235;
+}

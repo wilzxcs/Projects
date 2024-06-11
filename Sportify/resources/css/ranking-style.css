@@ -1,0 +1,41 @@
+body>div{
+    width:fit-content;
+    margin:auto;
+}
+div>div{
+    float:left;
+    
+}
+div>div img{
+    border: 5px solid var(--FG-2);
+    padding: 1em;
+    border-radius: 100%;
+}
+div>div p{
+    text-align: center;
+}
+#rank-1{
+    margin-top:0;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#rank-2{
+    margin-top:15%;
+}
+#rank-3{
+    margin-top:20%;
+}
+table{
+    width: 80%;
+    clear: both;
+    padding: 1em;
+    margin:auto;
+    border-collapse: collapse;
+}
+tr{
+    
+    background-color: lightblue;
+}
+tr:nth-child(even){
+    background-color: lightskyblue;
+}

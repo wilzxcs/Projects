@@ -1,0 +1,64 @@
+
+#posts{
+    margin: 0 auto 0;
+    width: fit-content;
+    margin-bottom: 50px;
+}
+    #posts div{
+        padding: 1em;
+        margin-bottom: 50px;
+    }
+        #announcements{
+            border: 15px solid var(--COLOR1);
+            border-radius: 10px;
+            width: 400px;
+            height: 350px;
+            margin-left: 1%;
+            margin-right: 10%;
+        }
+            #announcements em{
+                font-size: 20px;
+                
+            }
+            #announcements p{
+                font-size: 12px;
+            }
+
+#enter-post form textarea{
+    width: 350px;
+    height: 30px;
+
+}
+#enter-post{
+    border: 10px solid var(--COLOR1);
+    border-radius: 10px;
+    width: fit-content;
+    margin-left: 0%;
+}
+div h1{
+    text-align: center;
+    text-decoration: underline;
+}
+
+#announcements, #wall{
+    text-align: center;
+}
+#wall #name{
+    text-decoration: underline;
+}
+.scrollable{
+    overflow-y: scroll;
+    height: 50%;
+}
+iframe{
+    display: none;
+}
+.inserts{
+    padding: 1em;
+    margin: 1em auto 0;
+    width: 300px;
+    border: 10px solid var(--COLOR1);
+}
+#change_status{
+    width: 450px;
+}

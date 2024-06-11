@@ -1,0 +1,28 @@
+div{ 
+    border-radius: 20px;
+    margin-bottom: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 1em;
+}
+div:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+div > h1{
+    clear:both;
+    border-bottom: 1px dashed black;
+    margin-right: 5%;
+}
+form{
+    margin: 0 auto; 
+    text-align:center;
+}
+#folder{
+    width: 50%;
+}
+table{
+    margin: 0 auto;
+    margin-top: 1%;
+}
+h1{
+    color: black;
+}

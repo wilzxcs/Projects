@@ -1,0 +1,24 @@
+{
+	"folders": [
+		{
+			"path": "..\\..\\Internet Technologies CMSC121"
+		},
+		{
+			"path": "..\\..\\Sportify"
+		},
+		{
+			"path": "..\\..\\Web Development - PHP"
+		},
+		{
+			"path": ".."
+		},
+		{
+			"path": "..\\..\\..\\..\\Users\\Lenovo.DESKTOP-EAORNA8\\Documents\\00 Third Year - First Semester (2021)\\CMSC 141\\Basic Programming Language"
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"Test.C": "cpp"
+		}
+	}
+}
